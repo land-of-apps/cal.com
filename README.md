@@ -143,7 +143,7 @@ Here is what you need to be able to run Cal.com.
    yarn
    ```
 
-4. Set up your `.env` file
+4. Set up your `.env` file (NOTE: Not needed in this branch - included)
 
    - Duplicate `.env.example` to `.env`
    - Use `openssl rand -base64 32` to generate a key and add it under `NEXTAUTH_SECRET` in the `.env` file.
